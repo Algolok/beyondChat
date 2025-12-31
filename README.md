@@ -118,7 +118,8 @@ SERPAPI_API_KEY=your_serpapi_api_key
 
 ## Live Link
 
-[Deploy the frontend to a hosting service like Vercel, Netlify, or Heroku for a live link]
+**Repository**: https://github.com/Algolok/beyondChat  
+**Frontend Demo**: [Deploy to Vercel/Netlify for live demo - see deployment instructions below]
 
 ## Notes
 
