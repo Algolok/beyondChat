@@ -12,7 +12,8 @@ function App() {
 
   const fetchArticles = async () => {
     try {
-      const response = await axios.get('http://localhost:3001/api/articles');
+      const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+      const response = await axios.get(`${apiUrl}/api/articles`);
       setArticles(response.data);
     } catch (error) {
       console.error('Error fetching articles:', error);
